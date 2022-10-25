@@ -81,7 +81,7 @@ and (max-width: 780px) {
     .about-down{
         display: flex;
         flex-direction: column;
-        margin-bottom: 180px;
+        margin-bottom: 140px;
     }
     .about-img-down{
         width: 250px;
