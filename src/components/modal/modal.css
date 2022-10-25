@@ -7,3 +7,11 @@
     height: 100vh;
     background-color: rgba(2, 1, 1, 0.418);
 }
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 780px) {
+    .modal{
+        margin-bottom: 12px;
+    }
+}
