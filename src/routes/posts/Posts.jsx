@@ -18,16 +18,6 @@ const cardsDb = [
   },
   {
     id: 2,
-    title: 'Coffee Store',
-    img: Project2,
-    itemUno: 'Vanilla JS',
-    itemDos: 'LocalStorage',
-    itemTres: 'Bootstrap',
-    itemCuatro: 'jQuery',
-    url:'https://mateodev028.github.io/cafe-orfeo/'
-  },
-  {
-    id: 3,
     title: 'Web Design',
     img: Project3,
     itemUno: 'React',
@@ -35,6 +25,16 @@ const cardsDb = [
     itemTres: 'InProgress...',
     itemCuatro: 'InProgress...',
     url:'https://project-a1-a1.netlify.app/'
+  },
+  {
+    id: 3,
+    title: 'Coffee Store',
+    img: Project2,
+    itemUno: 'Vanilla JS',
+    itemDos: 'LocalStorage',
+    itemTres: 'Bootstrap',
+    itemCuatro: 'jQuery',
+    url:'https://mateodev028.github.io/cafe-orfeo/'
   },
 ]
 
