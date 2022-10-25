@@ -5,7 +5,9 @@ import './modal.css'
 const Modal = () => {
   return (
     <div className='modal'>
+      <div className="modal-spinner">
         <Spinner />
+      </div>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 .modal{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,5 +14,9 @@ and (min-width: 320px)
 and (max-width: 780px) {
     .modal{
         margin-bottom: 12px;
+    }
+    .modal-spinner{
+        position: absolute;
+        top: 40%;
     }
 }
