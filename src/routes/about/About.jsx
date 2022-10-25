@@ -13,7 +13,7 @@ const About = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 700)
+    }, 900)
   }, [])
 
   return (
