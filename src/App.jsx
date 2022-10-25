@@ -5,7 +5,6 @@ import About from './routes/about/About'
 import { Routes, Route } from 'react-router-dom';
 import './app.css'
 import Modal from './components/modal/Modal';
-import Spinner from './components/spinner/Spinner';
 
 
 function App() {
