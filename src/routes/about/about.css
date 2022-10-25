@@ -1,110 +1,89 @@
 .about{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-    height: 582px;
-    
+    align-items: center;
+    height: 90vh;
+    margin-top: 6px;
 }
-
 .about-container{
+    position: relative;
     display: flex;
+    height: 80vh;
     width: 60%;
     justify-content: center;
     flex-wrap: wrap;
+    z-index: -1;
+    background-color: rgba(75, 64, 64, 0.39);
+    border-radius: 10px;
 }
-
 .about-left-top{
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .about-img-left-top {
-    width: 180px;
-    height: 250px;
-    border-radius: 20px;
+    width: 200px;
+    height: 235px;
+    border-radius: 10px;
 }
-
 .about-right-top{
     margin-left: 15px;
-    margin-top: 50px;
     width: 50%;
 }
-
 .about-text-right-top {
     color: wheat;
     font-size: 15px;
     text-align: justify;
-    line-height: 28px;    
+    line-height: 28px; 
+    margin-left: 20px;   
 }
-
 .about-down{
     display: flex;
 }
-
 .about-img-down{
     width: 320px;
     height: 200px;
     margin: 20px;
 }
 
-.about-img-down:hover{
-    width: 720px;
-    height: 500px;
-}
-
-
 @media only screen
 and (min-width: 320px)
 and (max-width: 780px) {
     .about{
         height: 100vh;
-        display: flex;
-        margin-top: 5px;
     }
-
     .about-container {
-        display: flex;
         flex-wrap: wrap;
+        height: 90vh;
         justify-content: center;
-        width: auto;
+        width: 95vw;
     }
-
     .about-left-top{
         margin-top: 35px;
     }
-
     .about-img-left-top{
-        width: 150px;
-        height: 210px;
+        width: 140px;
+        height: 170px;
     }
-
     .about-right-top{
-        width: 180px;
+        width: 190px;
         height: 210px;
         margin-left: 8px;
         margin-top: 30px;
     }
-
     .about-text-right-top{
         font-size: 10.5px;
         color: white;
         text-align: justify;
         line-height: 14.5px;
     }
-
     .about-down{
         display: flex;
         flex-direction: column;
     }
-
     .about-img-down{
-        width: 280px;
-        height: 180px;
+        width: 250px;
+        height: 150px;
         margin: 8px;
-        margin-top: 4px;
-    }
-
-    .about-img-down:hover{
-        width: 500px;
-        height: 280px;
     }
 }
