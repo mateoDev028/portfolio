@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './about.css'
-import Me from './aboutImg/me_1.jpg'
+import Me from './aboutImg/me.jpg'
 import certJS from './aboutImg/Cert_JS.jpg'
 import certReact from './aboutImg/Cert_React.jpg'
 import Modal from '../../components/modal/Modal';
