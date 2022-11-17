@@ -50,6 +50,10 @@
     color: rgb(28, 186, 197);
 }
 
+.navbar-left-img{
+    width: 200px;
+}
+
 
 .navbar-text{
     color: aliceblue;
@@ -65,12 +69,6 @@ and (max-width: 780px) {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-    }
-
-    .navbar-left{
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .navbar-icon {
@@ -99,15 +97,17 @@ and (max-width: 780px) {
         font-size: 13px;
     }
 
-    .navbar-right{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .navbar-text{
         color: white;
         font-size: 13px;
+    }
+
+    .navbar-left{
+        margin-left: 15px;
+    }
+
+    .navbar-left-img{
+        width: 100px;
     }
 }
 

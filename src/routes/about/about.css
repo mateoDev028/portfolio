@@ -23,7 +23,7 @@
 }
 .about-img-left-top {
     width: 200px;
-    height: 235px;
+    height: 230px;
     border-radius: 10px;
 }
 .about-right-top{
@@ -60,8 +60,9 @@ and (max-width: 780px) {
     }
     .about-left-top{
         height: 220px;
-        margin-top: 40px;
+        margin-top: 27px;
     }
+
     .about-img-left-top{
         width: 150px;
         height: 180px;
@@ -69,10 +70,13 @@ and (max-width: 780px) {
     .about-right-top{
         width: 190px;
         height: 210px;
-        margin-left: 5px;
         margin-top: 30px;
     }
     .about-text-right-top{
+        position: absolute;
+        right: 10px;
+        margin-left: 20px;
+        width: 180px;
         font-size: 10.5px;
         color: white;
         text-align: justify;
@@ -81,7 +85,6 @@ and (max-width: 780px) {
     .about-down{
         display: flex;
         flex-direction: column;
-        margin-bottom: 90px;
     }
     .about-img-down{
         width: 250px;
