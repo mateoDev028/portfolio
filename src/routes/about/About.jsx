@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './about.css'
-import Me from './aboutImg/me.jpg'
+import Me from './aboutImg/me1.png'
 import certJS from './aboutImg/Cert_JS.jpg'
 import certReact from './aboutImg/Cert_React.jpg'
 import Modal from '../../components/modal/Modal';
@@ -29,13 +29,13 @@ const About = () => {
             </div>
             <div className="about-right-top">
               <p className='about-text-right-top'>
-                Soy Mateo Miglino actual estudiante de la carrera de Lic. Informatica 
+                Soy Mateo Miglino estudiante de la carrera de Lic. Informatica 
                 en la Universidad Nacional del Oeste, mis bases de Programacion Imperativa 
                 las aprendí programando en C y mis bases de Programacion con Objetos las aprendí
                 programando en Java.
-                Mi favoritismo por el Desarrollo Web comenzo a través de un curso de JavaScript
-                el cual me llevó a que actualmente me encuentre desarrollando con React.js 
-                una tecnología que me encanta y me apasiona.
+                Actualmente estoy realizando un curso donde aprendo a crear microservicios con 
+                Spring Boot, Dockerizar esos microservicios con sus bases de datos y luego desplegarlos
+                en una maquina remota con AWS, también la orquestación de contenedores con Kubernetes.
               </p>
             </div>  
             <div className="about-down">
